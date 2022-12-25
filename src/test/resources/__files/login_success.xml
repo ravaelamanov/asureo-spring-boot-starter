@@ -1,0 +1,16 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://tempuri.org/">
+    <SOAP-ENV:Header>
+        <ROClientIDHeader SOAP-ENV:mustUnderstand="0" xmlns="http://tempuri.org/">
+            <ID>{EF53D241-DEAB-435E-8C10-897507F7F640}</ID>
+        </ROClientIDHeader>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <v1:IntegrationService___LoginResponse>
+            <v1:return>
+                <v1:UserId>1</v1:UserId>
+                <v1:ErrorMessage/>
+                <v1:IsLogined>1</v1:IsLogined>
+            </v1:return>
+        </v1:IntegrationService___LoginResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

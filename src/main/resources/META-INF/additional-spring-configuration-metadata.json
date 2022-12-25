@@ -1,0 +1,69 @@
+{
+  "hints": [
+    {
+      "name": "sms-integration-client.repairs.categories-idents",
+      "values": [
+        {
+          "value": "ПЛ",
+          "description": "Плановые ремонты."
+        },
+        {
+          "value": "НПЛ",
+          "description": "Неплановые ремонты."
+        },
+        {
+          "value": "НО"
+        },
+        {
+          "value": "АВ",
+          "description": "Аварийные ремонты."
+        }
+      ]
+    },
+    {
+      "name": "sms-integration-client.repairs.response-attributes",
+      "values": [
+        {
+          "value": "atId",
+          "description": "Идентификатор ДЗ."
+        },
+        {
+          "value": "atSelfNumber",
+          "description": "Свой номер ДЗ."
+        },
+        {
+          "value": "atFactRepairDateBegin",
+          "description": "Время начала ремонта - фактическое."
+        },
+        {
+          "value": "atFactRepairDateEnd",
+          "description": "Время окончания ремонта - фактическое."
+        },
+        {
+          "value": "atCategoryId",
+          "description": "Ключ категории заявки."
+        },
+        {
+          "value": "atCategoryIdent",
+          "description": "Идентификатор категории заявки."
+        },
+        {
+          "value": "atCategoryName",
+          "description": "Наименование категории заявки."
+        },
+        {
+          "value": "atDeviceShifr",
+          "description": "Шифр оборудования."
+        },
+        {
+          "value": "atDeviceId",
+          "description": "Ключ оборудования."
+        },
+        {
+          "value": "atUserState",
+          "description": "Пользовательское состояние заявки."
+        }
+      ]
+    }
+  ]
+}

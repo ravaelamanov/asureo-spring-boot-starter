@@ -1,0 +1,23 @@
+sms-integration-client:
+  url: http://localhost:8080/soap?service=IntegrationService
+  credentials:
+    username: user
+    password: pass
+  repairs:
+    categories-idents:
+      - ПЛ
+      - НПЛ
+      - НО
+      - АВ
+    response-attributes:
+      - atId
+      - atSelfNumber
+      - atFactRepairDateBegin
+      - atFactRepairDateEnd
+      - atCategoryId
+      - atCategoryIdent
+      - atCategoryName
+      - atDeviceShifr
+      - atDeviceId
+      - atUserState
+

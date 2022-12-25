@@ -1,0 +1,389 @@
+<SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:HNS="http://tempuri.org/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://tempuri.org/">
+   <SOAP-ENV:Header>
+      <ROClientIDHeader SOAP-ENV:mustUnderstand="0" xmlns="http://tempuri.org/">
+         <ID>{A5655D1A-F274-4C29-8F07-BDAFE1DDB8EA}</ID>
+      </ROClientIDHeader>
+   </SOAP-ENV:Header>
+   <SOAP-ENV:Body xmlns:ro="http://tempuri.org/">
+      <v1:IntegrationService___RetZVKAttributesResponse>
+         <v1:Result>
+            <v1:SZvk>
+               <v1:Id>71612</v1:Id>
+               <v1:SelfNum>195</v1:SelfNum>
+               <v1:AlienNum>16</v1:AlienNum>
+               <v1:GroupId>0</v1:GroupId>
+               <v1:GroupName/>
+               <v1:CrDate>44574.3048611111</v1:CrDate>
+               <v1:RecTime>44579.1951891204</v1:RecTime>
+               <v1:SORecTime>44574.4784823727</v1:SORecTime>
+               <v1:PlanDBeg>44587.875</v1:PlanDBeg>
+               <v1:PlanDEnd>44587.875</v1:PlanDEnd>
+               <v1:NeedRepDBeg>44588.0840277778</v1:NeedRepDBeg>
+               <v1:NeedRepDEnd>44588.1659722222</v1:NeedRepDEnd>
+               <v1:PermRepDBeg>44588.0840277778</v1:PermRepDBeg>
+               <v1:PermRepDEnd>44588.1659722222</v1:PermRepDEnd>
+               <v1:FactRepDBeg>44588.1006944444</v1:FactRepDBeg>
+               <v1:FactRepDEnd>44588.1631944444</v1:FactRepDEnd>
+               <v1:LRouteDBeg>44588.0840277778</v1:LRouteDBeg>
+               <v1:LRouteDEnd>44588.1659722222</v1:LRouteDEnd>
+               <v1:TotalRepDBeg>44588.1006944444</v1:TotalRepDBeg>
+               <v1:TotalRepDEnd>44588.1631944444</v1:TotalRepDEnd>
+               <v1:OpenInit/>
+               <v1:CloseInit/>
+               <v1:RepTypeId>43</v1:RepTypeId>
+               <v1:RepTypeIdent>ТР</v1:RepTypeIdent>
+               <v1:RepTypeName>Текущий ремонт</v1:RepTypeName>
+               <v1:RepRead>00:15</v1:RepRead>
+               <v1:CatId>48</v1:CatId>
+               <v1:CatIdent>ПЛ</v1:CatIdent>
+               <v1:CatName>плановая</v1:CatName>
+               <v1:CondConstId>7593</v1:CondConstId>
+               <v1:CondConstIdent></v1:CondConstIdent>
+               <v1:CondConstName></v1:CondConstName>
+               <v1:SwProgId>881</v1:SwProgId>
+               <v1:SwProgIdent>Б</v1:SwProgIdent>
+               <v1:SwProgName>бланк переключений</v1:SwProgName>
+               <v1:SwProgText/>
+               <v1:EntId>7966</v1:EntId>
+               <v1:EntIdent>Some Enterprise Ident</v1:EntIdent>
+               <v1:EntName>Some Enterprise</v1:EntName>
+               <v1:ObjId>482</v1:ObjId>
+               <v1:ObjIdent>Some Object Ident</v1:ObjIdent>
+               <v1:ObjName>Some Object Name</v1:ObjName>
+               <v1:MonId>0</v1:MonId>
+               <v1:MonIdent/>
+               <v1:MonName/>
+               <v1:DevId>4990</v1:DevId>
+               <v1:DevShifr>{7D95F822-CC9C-4FDF-96BD-833113E15D69}</v1:DevShifr>
+               <v1:DevName>ГГ-1</v1:DevName>
+               <v1:DevLongName>ГГ-1</v1:DevLongName>
+               <v1:DevTypeId>948</v1:DevTypeId>
+               <v1:DevTypeIdent>ГГ</v1:DevTypeIdent>
+               <v1:DevTypeName>Гидрогенераторы</v1:DevTypeName>
+               <v1:ChildDeviceId>0</v1:ChildDeviceId>
+               <v1:ChildDeviceShifr/>
+               <v1:ChildDeviceName/>
+               <v1:DevState>dsOn</v1:DevState>
+               <v1:DevCloseTo>1</v1:DevCloseTo>
+               <v1:DevDateIO>44883.6125</v1:DevDateIO>
+               <v1:Power>61</v1:Power>
+               <v1:PowerDown>0</v1:PowerDown>
+               <v1:UserState>usAllowed</v1:UserState>
+               <v1:WorkState>wsClosed</v1:WorkState>
+               <v1:ZVKType>ztNoProlong</v1:ZVKType>
+               <v1:RouteType>riOk</v1:RouteType>
+               <v1:PrevZVKId>0</v1:PrevZVKId>
+               <v1:PrevZVKInfo>0\0</v1:PrevZVKInfo>
+               <v1:NextZVKId>0</v1:NextZVKId>
+               <v1:NextZVKInfo>0\0</v1:NextZVKInfo>
+               <v1:Origin>oForInfo</v1:Origin>
+               <v1:ZVKOpener>Диспетчер ФК</v1:ZVKOpener>
+               <v1:ZVKCloser>Диспетчер ФК</v1:ZVKCloser>
+               <v1:NeedDateSignes>Иванов И.И. Иванов И.И.</v1:NeedDateSignes>
+               <v1:FactDateComments/>
+               <v1:CurStepState/>
+               <v1:ZvkDeviceState>dsOff</v1:ZvkDeviceState>
+               <v1:CrEntIdent>Some CrEntIdent</v1:CrEntIdent>
+               <v1:Notes>
+                  <v1:SNote>
+                     <v1:Id>325850</v1:Id>
+                     <v1:LongText>Lorem Ipsum</v1:LongText>
+                     <v1:NoteType>
+                        <v1:Id>94</v1:Id>
+                        <v1:Ident>ЗВК_СДР</v1:Ident>
+                        <v1:Name>Содержание работ</v1:Name>
+                        <v1:OrderNumber>1</v1:OrderNumber>
+                        <v1:Required>true</v1:Required>
+                     </v1:NoteType>
+                     <v1:CreateDate>2022-01-13T07:19:46.360</v1:CreateDate>
+                     <v1:EntIdent>Some EntIndent</v1:EntIdent>
+                  </v1:SNote>
+                  <v1:SNote>
+                     <v1:Id>325851</v1:Id>
+                     <v1:LongText>Не требуются</v1:LongText>
+                     <v1:NoteType>
+                        <v1:Id>97</v1:Id>
+                        <v1:Ident>Ident</v1:Ident>
+                        <v1:Name>Релейные указания</v1:Name>
+                        <v1:OrderNumber>3</v1:OrderNumber>
+                        <v1:Required>false</v1:Required>
+                     </v1:NoteType>
+                     <v1:CreateDate>2022-01-14T07:21:01.233</v1:CreateDate>
+                     <v1:EntIdent>Some EntIdent</v1:EntIdent>
+                  </v1:SNote>
+                  <v1:SNote>
+                     <v1:Id>325852</v1:Id>
+                     <v1:LongText>Г-2, Г-3.</v1:LongText>
+                     <v1:NoteType>
+                        <v1:Id>93</v1:Id>
+                        <v1:Ident>Ident</v1:Ident>
+                        <v1:Name>Остаются в работе</v1:Name>
+                        <v1:OrderNumber>5</v1:OrderNumber>
+                        <v1:Required>false</v1:Required>
+                     </v1:NoteType>
+                     <v1:CreateDate>2022-01-13T07:19:46.360</v1:CreateDate>
+                     <v1:EntIdent>Some EntIdent</v1:EntIdent>
+                  </v1:SNote>
+                  <v1:SNote>
+                     <v1:Id>325853</v1:Id>
+                     <v1:LongText>Потерь нет</v1:LongText>
+                     <v1:NoteType>
+                        <v1:Id>98</v1:Id>
+                        <v1:Ident>ЗВК_ПОТЕРИ_РЗА</v1:Ident>
+                        <v1:Name>Потери РЗА</v1:Name>
+                        <v1:OrderNumber>7</v1:OrderNumber>
+                        <v1:Required>false</v1:Required>
+                     </v1:NoteType>
+                     <v1:CreateDate>2022-01-14T07:20:57.377</v1:CreateDate>
+                     <v1:EntIdent>Some EntIdent</v1:EntIdent>
+                  </v1:SNote>
+               </v1:Notes>
+               <v1:GTPGs/>
+               <v1:AddAttributes>
+                  <v1:SZVKBodyShortAttribute>
+                     <v1:Id>22</v1:Id>
+                     <v1:Kind>оборудование</v1:Kind>
+                     <v1:Value>ПЛ-30-500</v1:Value>
+                  </v1:SZVKBodyShortAttribute>
+               </v1:AddAttributes>
+               <v1:EntResultInfo>
+                  <v1:PrevConsInfoList>
+                     <v1:Items>
+                        <v1:SEntResult>
+                           <v1:ID>188354</v1:ID>
+                           <v1:STime>2022-01-13T07:19:00</v1:STime>
+                           <v1:ReceiveTime>2022-01-13T07:19:00</v1:ReceiveTime>
+                           <v1:DateBegin>2022-01-27T02:01:00</v1:DateBegin>
+                           <v1:DateEnd>2022-01-27T03:59:00</v1:DateEnd>
+                           <v1:LongText/>
+                           <v1:EntIdent>Some EntIdent</v1:EntIdent>
+                           <v1:State>rsCons</v1:State>
+                           <v1:Names>Иванов, Иванов.</v1:Names>
+                           <v1:AlienNumber>4</v1:AlienNumber>
+                           <v1:IsGiven>true</v1:IsGiven>
+                        </v1:SEntResult>
+                     </v1:Items>
+                  </v1:PrevConsInfoList>
+                  <v1:ApproveInfo>
+                     <v1:ID>188353</v1:ID>
+                     <v1:STime>2022-01-18T04:39:30.300</v1:STime>
+                     <v1:ReceiveTime>2022-01-13T11:29:00.877</v1:ReceiveTime>
+                     <v1:DateBegin>2022-01-27T02:01:00</v1:DateBegin>
+                     <v1:DateEnd>2022-01-27T03:59:00</v1:DateEnd>
+                     <v1:LongText/>
+                     <v1:EntIdent>Some EntIdent</v1:EntIdent>
+                     <v1:State>rsCons</v1:State>
+                     <v1:Names>ГД-Иванов ЗГД-Иванов Зам.нач.ОДС-Иванов Нач. СЭРБиР-Иванов Нач. СРЗА Иванов Зам. нач. СЭР-Иванов ОДС-Иванов</v1:Names>
+                     <v1:AlienNumber>61</v1:AlienNumber>
+                     <v1:IsGiven>false</v1:IsGiven>
+                  </v1:ApproveInfo>
+                  <v1:NeedInfo>
+                     <v1:ID>188352</v1:ID>
+                     <v1:STime>2022-01-13T11:28:37.113</v1:STime>
+                     <v1:ReceiveTime>2022-01-13T07:20:42.370</v1:ReceiveTime>
+                     <v1:DateBegin>2022-01-27T02:01:00</v1:DateBegin>
+                     <v1:DateEnd>2022-01-27T03:59:00</v1:DateEnd>
+                     <v1:LongText/>
+                     <v1:EntIdent>Some EntIdent</v1:EntIdent>
+                     <v1:State>rsCons</v1:State>
+                     <v1:Names>Иванов И.И. Иванов И.И.</v1:Names>
+                     <v1:AlienNumber>16</v1:AlienNumber>
+                     <v1:IsGiven>true</v1:IsGiven>
+                  </v1:NeedInfo>
+               </v1:EntResultInfo>
+               <v1:Actualization>false</v1:Actualization>
+               <v1:PrimaryZVKId>0</v1:PrimaryZVKId>
+               <v1:Grounding>zgNone</v1:Grounding>
+               <v1:Guid>{D8B21492-ED5A-494E-8E98-4EC02F70482A}</v1:Guid>
+            </v1:SZvk>
+            <v1:SZvk>
+               <v1:Id>71792</v1:Id>
+               <v1:SelfNum>373</v1:SelfNum>
+               <v1:AlienNum>41</v1:AlienNum>
+               <v1:GroupId>0</v1:GroupId>
+               <v1:GroupName/>
+               <v1:CrDate>44581.2444444444</v1:CrDate>
+               <v1:RecTime>44587.4534229977</v1:RecTime>
+               <v1:SORecTime>44581.4554548264</v1:SORecTime>
+               <v1:PlanDBeg>44594.875</v1:PlanDBeg>
+               <v1:PlanDEnd>44594.875</v1:PlanDEnd>
+               <v1:NeedRepDBeg>44595.0840277778</v1:NeedRepDBeg>
+               <v1:NeedRepDEnd>44595.1659722222</v1:NeedRepDEnd>
+               <v1:PermRepDBeg>44595.0840277778</v1:PermRepDBeg>
+               <v1:PermRepDEnd>44595.1659722222</v1:PermRepDEnd>
+               <v1:FactRepDBeg>44595.1041666667</v1:FactRepDBeg>
+               <v1:FactRepDEnd>44595.1527777778</v1:FactRepDEnd>
+               <v1:LRouteDBeg>44595.0840277778</v1:LRouteDBeg>
+               <v1:LRouteDEnd>44595.1659722222</v1:LRouteDEnd>
+               <v1:TotalRepDBeg>44595.1041666667</v1:TotalRepDBeg>
+               <v1:TotalRepDEnd>44595.1527777778</v1:TotalRepDEnd>
+               <v1:OpenInit/>
+               <v1:CloseInit/>
+               <v1:RepTypeId>43</v1:RepTypeId>
+               <v1:RepTypeIdent>ТР</v1:RepTypeIdent>
+               <v1:RepTypeName>Текущий ремонт</v1:RepTypeName>
+               <v1:RepRead>00:15</v1:RepRead>
+               <v1:CatId>48</v1:CatId>
+               <v1:CatIdent>ПЛ</v1:CatIdent>
+               <v1:CatName>плановая</v1:CatName>
+               <v1:CondConstId>7593</v1:CondConstId>
+               <v1:CondConstIdent></v1:CondConstIdent>
+               <v1:CondConstName></v1:CondConstName>
+               <v1:SwProgId>883</v1:SwProgId>
+               <v1:SwProgIdent>Пусто</v1:SwProgIdent>
+               <v1:SwProgName/>
+               <v1:SwProgText/>
+               <v1:EntId>7966</v1:EntId>
+               <v1:EntIdent>Some EntIdent</v1:EntIdent>
+               <v1:EntName>Some EntName</v1:EntName>
+               <v1:ObjId>482</v1:ObjId>
+               <v1:ObjIdent>Some ObjIdent</v1:ObjIdent>
+               <v1:ObjName>Some ObjName</v1:ObjName>
+               <v1:MonId>0</v1:MonId>
+               <v1:MonIdent/>
+               <v1:MonName/>
+               <v1:DevId>4990</v1:DevId>
+               <v1:DevShifr>{7D95F822-CC9C-4FDF-96BD-833113E15D69}</v1:DevShifr>
+               <v1:DevName>ГГ-1</v1:DevName>
+               <v1:DevLongName>ГГ-1</v1:DevLongName>
+               <v1:DevTypeId>948</v1:DevTypeId>
+               <v1:DevTypeIdent>ГГ</v1:DevTypeIdent>
+               <v1:DevTypeName>Гидрогенераторы</v1:DevTypeName>
+               <v1:ChildDeviceId>0</v1:ChildDeviceId>
+               <v1:ChildDeviceShifr/>
+               <v1:ChildDeviceName/>
+               <v1:DevState>dsOn</v1:DevState>
+               <v1:DevCloseTo>1</v1:DevCloseTo>
+               <v1:DevDateIO>44883.6125</v1:DevDateIO>
+               <v1:Power>63</v1:Power>
+               <v1:PowerDown>0</v1:PowerDown>
+               <v1:UserState>usAllowed</v1:UserState>
+               <v1:WorkState>wsClosed</v1:WorkState>
+               <v1:ZVKType>ztNoProlong</v1:ZVKType>
+               <v1:RouteType>riOk</v1:RouteType>
+               <v1:PrevZVKId>0</v1:PrevZVKId>
+               <v1:PrevZVKInfo>0\0</v1:PrevZVKInfo>
+               <v1:NextZVKId>0</v1:NextZVKId>
+               <v1:NextZVKInfo>0\0</v1:NextZVKInfo>
+               <v1:Origin>oForInfo</v1:Origin>
+               <v1:ZVKOpener>Диспетчер ФК</v1:ZVKOpener>
+               <v1:ZVKCloser>Диспетчер ФК</v1:ZVKCloser>
+               <v1:NeedDateSignes>Иванов И.И. Иванов И.И.</v1:NeedDateSignes>
+               <v1:FactDateComments/>
+               <v1:CurStepState/>
+               <v1:ZvkDeviceState>dsOff</v1:ZvkDeviceState>
+               <v1:CrEntIdent>Some CrEntIdent</v1:CrEntIdent>
+               <v1:Notes>
+                  <v1:SNote>
+                     <v1:Id>327004</v1:Id>
+                     <v1:LongText>Чистка щеточных аппаратов, фильтров и дросселей.</v1:LongText>
+                     <v1:NoteType>
+                        <v1:Id>94</v1:Id>
+                        <v1:Ident>ЗВК_СДР</v1:Ident>
+                        <v1:Name>Содержание работ</v1:Name>
+                        <v1:OrderNumber>1</v1:OrderNumber>
+                        <v1:Required>true</v1:Required>
+                     </v1:NoteType>
+                     <v1:CreateDate>2022-01-20T05:52:55.643</v1:CreateDate>
+                     <v1:EntIdent>Some EntIdent</v1:EntIdent>
+                  </v1:SNote>
+                  <v1:SNote>
+                     <v1:Id>327005</v1:Id>
+                     <v1:LongText>Не требуются</v1:LongText>
+                     <v1:NoteType>
+                        <v1:Id>97</v1:Id>
+                        <v1:Ident>ЗВК_УК_РЕЛ</v1:Ident>
+                        <v1:Name>Релейные указания</v1:Name>
+                        <v1:OrderNumber>3</v1:OrderNumber>
+                        <v1:Required>false</v1:Required>
+                     </v1:NoteType>
+                     <v1:CreateDate>2022-01-26T10:10:58.970</v1:CreateDate>
+                     <v1:EntIdent>Some EntIdent</v1:EntIdent>
+                  </v1:SNote>
+                  <v1:SNote>
+                     <v1:Id>327006</v1:Id>
+                     <v1:LongText>Г-4 в КР по заявке № </v1:LongText>
+                     <v1:NoteType>
+                        <v1:Id>95</v1:Id>
+                        <v1:Ident>ЗВК_УК_ОПЕР</v1:Ident>
+                        <v1:Name>Оперативные указания</v1:Name>
+                        <v1:OrderNumber>4</v1:OrderNumber>
+                        <v1:Required>false</v1:Required>
+                     </v1:NoteType>
+                     <v1:CreateDate>2022-01-20T05:52:55.643</v1:CreateDate>
+                     <v1:EntIdent>Some EntIdent</v1:EntIdent>
+                  </v1:SNote>
+                  <v1:SNote>
+                     <v1:Id>327007</v1:Id>
+                     <v1:LongText>Потерь нет</v1:LongText>
+                     <v1:NoteType>
+                        <v1:Id>98</v1:Id>
+                        <v1:Ident>ЗВК_ПОТЕРИ_РЗА</v1:Ident>
+                        <v1:Name>Потери РЗА</v1:Name>
+                        <v1:OrderNumber>7</v1:OrderNumber>
+                        <v1:Required>false</v1:Required>
+                     </v1:NoteType>
+                     <v1:CreateDate>2022-01-26T10:10:54.350</v1:CreateDate>
+                     <v1:EntIdent>Some EntIdent</v1:EntIdent>
+                  </v1:SNote>
+               </v1:Notes>
+               <v1:GTPGs/>
+               <v1:AddAttributes>
+                  <v1:SZVKBodyShortAttribute>
+                     <v1:Id>22</v1:Id>
+                     <v1:Kind>оборудование</v1:Kind>
+                     <v1:Value>ПЛ-30-500</v1:Value>
+                  </v1:SZVKBodyShortAttribute>
+               </v1:AddAttributes>
+               <v1:EntResultInfo>
+                  <v1:PrevConsInfoList>
+                     <v1:Items>
+                        <v1:SEntResult>
+                           <v1:ID>188755</v1:ID>
+                           <v1:DateBegin>2022-02-03T02:01:00</v1:DateBegin>
+                           <v1:DateEnd>2022-02-03T03:59:00</v1:DateEnd>
+                           <v1:LongText/>
+                           <v1:EntIdent>Some EntIdent</v1:EntIdent>
+                           <v1:State>rsCons</v1:State>
+                           <v1:Names>Иванов, Иванов</v1:Names>
+                           <v1:AlienNumber>16</v1:AlienNumber>
+                           <v1:IsGiven>true</v1:IsGiven>
+                        </v1:SEntResult>
+                     </v1:Items>
+                  </v1:PrevConsInfoList>
+                  <v1:ApproveInfo>
+                     <v1:ID>188754</v1:ID>
+                     <v1:STime>2022-01-26T10:51:20.847</v1:STime>
+                     <v1:ReceiveTime>2022-01-20T10:55:51.297</v1:ReceiveTime>
+                     <v1:DateBegin>2022-02-03T02:01:00</v1:DateBegin>
+                     <v1:DateEnd>2022-02-03T03:59:00</v1:DateEnd>
+                     <v1:LongText/>
+                     <v1:EntIdent>Some EntIdent</v1:EntIdent>
+                     <v1:State>rsCons</v1:State>
+                     <v1:Names>ГД-Иванов ЗГД-Иванов Нач. ОДС-Иванов Нач. СРЗА Иванов Нач. СЭРБиР-Иванов Зам. нач. СЭР-Иванов ОДС-Иванов</v1:Names>
+                     <v1:AlienNumber>128</v1:AlienNumber>
+                     <v1:IsGiven>false</v1:IsGiven>
+                  </v1:ApproveInfo>
+                  <v1:NeedInfo>
+                     <v1:ID>188753</v1:ID>
+                     <v1:STime>2022-01-20T10:55:45.297</v1:STime>
+                     <v1:ReceiveTime>2022-01-20T06:01:12.283</v1:ReceiveTime>
+                     <v1:DateBegin>2022-02-03T02:01:00</v1:DateBegin>
+                     <v1:DateEnd>2022-02-03T03:59:00</v1:DateEnd>
+                     <v1:LongText/>
+                     <v1:EntIdent>Some EntIdent</v1:EntIdent>
+                     <v1:State>rsCons</v1:State>
+                     <v1:Names>Иванов И.И. Иванов И.И.</v1:Names>
+                     <v1:AlienNumber>41</v1:AlienNumber>
+                     <v1:IsGiven>true</v1:IsGiven>
+                  </v1:NeedInfo>
+               </v1:EntResultInfo>
+               <v1:Actualization>false</v1:Actualization>
+               <v1:PrimaryZVKId>0</v1:PrimaryZVKId>
+               <v1:Grounding>zgNone</v1:Grounding>
+               <v1:Guid>{05FB8F46-DD17-495B-A812-A1A82A94E9F7}</v1:Guid>
+            </v1:SZvk>
+         </v1:Result>
+      </v1:IntegrationService___RetZVKAttributesResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

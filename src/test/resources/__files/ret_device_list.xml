@@ -1,0 +1,60 @@
+<SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:HNS="http://tempuri.org/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://tempuri.org/">
+    <SOAP-ENV:Header>
+        <ROClientIDHeader SOAP-ENV:mustUnderstand="0" xmlns="http://tempuri.org/">
+            <ID>{8FCB27ED-48D8-418B-A422-6912A96AC325}</ID>
+        </ROClientIDHeader>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body xmlns:ro="http://tempuri.org/">
+        <v1:IntegrationService___RetDeviceListResponse>
+            <v1:return>
+                <v1:SDevice>
+                    <v1:Id>4619</v1:Id>
+                    <v1:Ident>RTU УТМ</v1:Ident>
+                    <v1:Name>RTU Устройств телемеханики</v1:Name>
+                    <v1:OrderNumber>0</v1:OrderNumber>
+                    <v1:ParentId>0</v1:ParentId>
+                    <v1:DeviceTypeId>936</v1:DeviceTypeId>
+                    <v1:Shifr>{D11D63F3-9EC8-4D26-BB1F-C4B30E8BF093}</v1:Shifr>
+                    <v1:GeneralizedDeviceId>0</v1:GeneralizedDeviceId>
+                    <v1:GeneralizedDeviceName/>
+                    <v1:IsActive>true</v1:IsActive>
+                    <v1:IsGroup>false</v1:IsGroup>
+                    <v1:UseInChild>false</v1:UseInChild>
+                    <v1:LongName>RTU Устройств телемеханики</v1:LongName>
+                    <v1:SelfDevice>false</v1:SelfDevice>
+                    <v1:PowerObjectIds>
+                        <v1:int>457</v1:int>
+                    </v1:PowerObjectIds>
+                    <v1:SubSystemArray>
+                        <v1:SSubSystem>ssZVK</v1:SSubSystem>
+                        <v1:SSubSystem>ssRepairSchedule</v1:SSubSystem>
+                    </v1:SubSystemArray>
+                    <v1:IsAdditional>false</v1:IsAdditional>
+                </v1:SDevice>
+                <v1:SDevice>
+                    <v1:Id>4532</v1:Id>
+                    <v1:Ident>АТС</v1:Ident>
+                    <v1:Name>Автоматические телефонные станции</v1:Name>
+                    <v1:OrderNumber>0</v1:OrderNumber>
+                    <v1:ParentId>0</v1:ParentId>
+                    <v1:DeviceTypeId>78</v1:DeviceTypeId>
+                    <v1:Shifr>{C70AEDFD-697E-4C86-A1AA-AFA43845AB9E}</v1:Shifr>
+                    <v1:GeneralizedDeviceId>0</v1:GeneralizedDeviceId>
+                    <v1:GeneralizedDeviceName/>
+                    <v1:IsActive>true</v1:IsActive>
+                    <v1:IsGroup>true</v1:IsGroup>
+                    <v1:UseInChild>false</v1:UseInChild>
+                    <v1:LongName>Автоматические телефонные станции</v1:LongName>
+                    <v1:SelfDevice>false</v1:SelfDevice>
+                    <v1:PowerObjectIds>
+                        <v1:int>457</v1:int>
+                    </v1:PowerObjectIds>
+                    <v1:SubSystemArray>
+                        <v1:SSubSystem>ssRepairSchedule</v1:SSubSystem>
+                    </v1:SubSystemArray>
+                    <v1:IsAdditional>false</v1:IsAdditional>
+                </v1:SDevice>
+            </v1:return>
+        </v1:IntegrationService___RetDeviceListResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
