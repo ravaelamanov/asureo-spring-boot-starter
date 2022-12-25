@@ -1,3 +1,3 @@
-# Template for shared library built with Spring Boot starter framework
+# ASUREO Spring Boot Starter
 
-This template can be used to create shared libraries with Spring Boot starter framework.  For details on how to create a shared library, refer to my medium link (to come).
+Стартер для взаимодействия с интгерационным модулем АСУРЭО.
